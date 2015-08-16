@@ -1,0 +1,23 @@
+<apex:page StandardController="Account">
+<apex:form >
+<apex:pageblock title="table" >
+<apex:pageblockSection title="page block table">
+<apex:repeat value="{!Account.contacts}" var="a">
+<tr>
+<td>
+{!a.id}
+</td>
+<td>
+{!a.lastname}
+</td>
+<td>
+{!a.Email}
+</td>
+</tr>
+
+</apex:repeat>
+
+</apex:pageBlockSection>
+</apex:pageblock>
+</apex:form>
+</apex:page>

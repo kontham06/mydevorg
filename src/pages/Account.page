@@ -1,0 +1,21 @@
+<apex:page StandardController="contact">
+  <apex:form >
+  <apex:pageBlock title="contact">
+  <apex:pageBlockSection title="Contact Information" collapsible="false" columns="2" >
+  <apex:outputLabel value="First Name">
+  <apex:InputField value="{!contact.FirstName}"/>
+  </apex:outputLabel>
+  <apex:outputLabel value="phone">
+  <apex:inputField value="{!contact.phone}"/>
+  </apex:outputLabel>
+  <apex:outputLabel value="LastName">
+  <apex:InputField value="{!contact.LastName}" required="false"/>
+  </apex:outputLabel>
+  <apex:outputlabel value="Homephone" >
+  <apex:InputField value="{!contact.Homephone}"/>
+  </apex:outputLabel>
+  <apex:image id="sridhar" value="C:\Users\sridharreddy\Desktop\New folder\lor28s.JPG" width="15" height="15"/>
+  </apex:pageBlockSection>
+  </apex:pageBlock>
+  </apex:form>
+</apex:page>

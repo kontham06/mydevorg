@@ -1,0 +1,6 @@
+<apex:page >
+  <apex:form >
+  <apex:PageBlock title="Detail">
+  </apex:PageBlock>
+  </apex:form>
+</apex:page>

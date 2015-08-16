@@ -1,0 +1,13 @@
+<apex:page controller="multipages" >
+ <apex:form >
+<apex:pageBlock title="Account Information">
+<apex:pageBlockSection title="Pls fill the details" columns="1">
+<apex:commandButton value="next" action="{!gotopage2}"/ >
+<apex:inputfield value="{!ab.Name}"/>
+<apex:inputfield value="{!ab.type}"/>
+<apex:inputfield value="{!ab.AccountNumber}"/>
+<apex:inputField value="{!ab.CleanStatus}"/>
+</apex:pageBlockSection>
+</apex:pageBlock> 
+ </apex:form>
+</apex:page>

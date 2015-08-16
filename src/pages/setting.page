@@ -1,0 +1,10 @@
+<apex:page controller="customdemo">
+<apex:form >
+<apex:pageblock title="Cust Demo">
+<apex:pageblockSection title="Getall">
+
+</apex:pageblockSection>
+</apex:pageblock>
+</apex:form>
+  
+</apex:page>

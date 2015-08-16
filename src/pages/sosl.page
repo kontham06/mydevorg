@@ -1,0 +1,24 @@
+<apex:page controller="sosl">
+<apex:form >
+<apex:pageBlock >
+<apex:commandButton value="sosl" action="{!soslmethod}"/>
+<apex:outputLabel value="enter the name you want to search">
+<apex:inputText value="{!Name}"/>
+</apex:outputLabel>
+<apex:pageblockSection title="Sosl" columns="1">
+<apex:dataTable value="{!ss}" var="a">
+<apex:column value="{!a.ID}"/>
+<apex:column value="{!a.Name}"/>
+
+</apex:dataTable>
+<apex:pageblockSection title="Emp" columns="1">
+<apex:pageblockTable value="{!job}" var="b">
+<apex:column value="{!b.ID}"/>
+<apex:column value="{!b.Name}"/>
+<apex:column value="{!b.Emp_Name__c}"/>
+</apex:pageblockTable>
+</apex:pageblockSection>
+</apex:pageblockSection>
+</apex:pageBlock>
+  </apex:form>
+</apex:page>

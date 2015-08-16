@@ -1,0 +1,14 @@
+<apex:page controller="name">
+<apex:form >
+<apex:pageBlock title="new class">
+<apex:pageBlockSection title="creating">
+<apex:outputLabel value="Name">
+
+<apex:inputText />
+</apex:outputLabel>
+
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+ 
+</apex:page>

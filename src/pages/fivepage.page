@@ -1,0 +1,4 @@
+<apex:page controller="quick" >
+  <h1>Congratulation</h1>
+  You Have saved the Information Sucessfully
+</apex:page>

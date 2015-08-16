@@ -1,0 +1,10 @@
+<apex:page standardController="Emp__c" >
+  <apex:form >
+  <c:custcompo ></c:custcompo>
+  <apex:pageBlock title="Custom">
+  <apex:pageblockSection title="components">
+  <apex:commandLink value="save" action="save"/>
+  </apex:pageblockSection>
+  </apex:pageBlock>
+  </apex:form>
+</apex:page>

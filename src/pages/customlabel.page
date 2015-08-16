@@ -1,0 +1,8 @@
+<apex:page >
+<apex:form >
+<apex:pageBlock title="cutom">
+<apex:outputLabel value="{!$Label.label}"></apex:outputLabel>
+<apex:inputtext />
+</apex:pageBlock>
+</apex:form>
+</apex:page>

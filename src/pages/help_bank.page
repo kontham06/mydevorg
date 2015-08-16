@@ -1,0 +1,19 @@
+<apex:page controller="Multipick">
+  <apex:form >
+  <apex:outputpanel >Hey guys New Video
+  </apex:outputpanel>
+  <apex:selectList value="{!Selected}" size="3" multiselect="False">
+  <apex:selectOptions value="{!color}"></apex:selectOptions>
+  <apex:actionSupport action="{!method}" reRender="pbsi" event="onchange" />
+  </apex:selectList>
+  
+  </apex:form>
+  
+  <apex:pageBlock title="color">
+  <apex:pageBlockSection id="pbsi" >
+  <apex:pageblockSectionItem >
+  {!Selected}
+  </apex:pageblockSectionItem>
+  </apex:pageBlockSection>
+  </apex:pageBlock>
+</apex:page>

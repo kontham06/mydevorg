@@ -1,0 +1,4 @@
+<apex:page StandardController="Emp__c" >
+<apex:detail subject="{!Emp__c.ID}" relatedList="true" relatedListHover="false"/> 
+<apex:pagemessage Summary="welocme Sridhar" Severity="Info"/>
+</apex:page>

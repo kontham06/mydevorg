@@ -1,0 +1,16 @@
+<apex:page sidebar="false" showHeader="true" StandardController="Emp__c">
+ <apex:Form >
+ <apex:PageBlock title="Emp Details">
+ <apex:PageBlockSection title="Personal Information" Collapsible="false" columns="3">
+ <apex:InputField value="{!Emp__c.Emp_Name__c}"/>
+ <apex:InputField value="{!Emp__c.Gender__c}"/>
+ <apex:InputField value="{!Emp__c.Emai_id__c}"/>
+ <apex:InputField value="{!Emp__c.Salary__c}"/>
+ <apex:InputField value="{!Emp__c.Designation__c}"/>
+ <apex:messages />
+ <apex:detail subject="{!Emp__c.ID}"/>
+ <apex:CommandButton value="save" action="{!save}"/>
+ </apex:PageBlockSection>
+ </apex:PageBlock>
+ </apex:Form>
+</apex:page>

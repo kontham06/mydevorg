@@ -1,0 +1,14 @@
+<apex:page controller="quick">
+<apex:form >
+<apex:pageBlock title="Account">
+<apex:commandButton value="next" action="{!gototwopage}"/>
+<apex:pageBlockSection collapsible="true" columns="1">
+<apex:inputField value="{!a.Name}"/>
+<apex:inputField value="{!a.AccountNumber }"/>
+<apex:inputField value="{!a.Industry}"/>
+<apex:inputField value="{!a.CleanStatus }"/>
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+
+</apex:page>

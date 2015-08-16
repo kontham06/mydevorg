@@ -1,0 +1,15 @@
+<apex:page controller="quick">
+<apex:form >
+<apex:pageBlock title="contract">
+<apex:commandButton value="previous" action="{!gotoonepage}"/>
+<apex:commandButton value="next" action="{!gotothreepage}"/>
+<apex:pageBlockSection collapsible="true" columns="1">
+<apex:inputField value="{!c.Name}"/>
+<apex:inputField value="{!c.StartDate }"/>
+<apex:inputField value="{!c.Status}"/>
+<apex:inputField value="{!c.Description}"/>
+</apex:pageBlockSection>
+</apex:pageBlock>
+</apex:form>
+
+</apex:page>

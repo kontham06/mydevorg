@@ -1,0 +1,30 @@
+<apex:page StandardController="Lead">
+  <apex:form >
+  
+  <apex:PageBlock title="personal" >
+  <apex:pageBlockSection title="Info" Collapsible="false">
+  <apex:InputField value="{!lead.Title}"/>
+  <apex:InputField value="{!lead.Email}"/>
+  <apex:pageBlockSection title="matica" Collapsible="false">
+  <apex:outputLabel value="name"></apex:outputLabel>
+  <apex:inputText size="10" maxlength="8"/>
+  <apex:pageBlockSection title="area" Collapsible="false" columns="1">
+  <apex:inputtextarea />
+  <apex:outputLabel value="password">
+  <apex:inputSecret />
+  <apex:pageBlockSection title="checkbox">
+  
+  <apex:OutputLabel value="{!$Label.label}"/>
+  
+  <apex:outputLink value="Https://www.google.com">google</apex:outputLink>
+  </apex:pageBlockSection>
+  
+  
+  </apex:outputLabel>
+  
+  </apex:pageBlockSection>
+  </apex:pageBlockSection>
+  </apex:pageBlockSection>
+ </apex:PageBlock>
+  </apex:form>
+</apex:page>
